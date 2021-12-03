@@ -1,0 +1,53 @@
+.dp-yuque-plugin {
+  position: fixed;
+  top: 120px;
+  right: 40px;
+  width: 300px;
+  min-height: 160px;
+  border: 1px solid #fff;
+  background-color: #0052ff;
+  color: #fff;
+  z-index: 10000;
+}
+
+.dp-yuque-tit {
+  margin-bottom: 10px;
+  padding-top: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.dp-yuque-download {
+  margin: 50px auto 0;
+  padding: 4px 0;
+  width: 100px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  text-align: center;
+  background: blue;
+  transition: 0.2s all ease;
+}
+
+.dp-yuque-download:hover {
+  opacity: 0.8;
+}
+
+.dp-yuque-info {
+  margin: 10px;
+  padding: 4px;
+  min-height: 100px;
+  max-height: 300px;
+  border: 1px solid #fff;
+  overflow-y: auto;
+}
+
+.dp-yuque-text {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.error {
+  color: #f00;
+}
